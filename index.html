@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.S STUDIOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>R.S STUDIOS</h1>
+        <nav>
+            <button id="btnAll" class="active">ALL</button>
+        </nav>
+        <div class="email-contact">
+            <span id="email-text">Email</span>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <div class="container"> 
+            <section id="portfolio-page" class="page-section active">
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-project-name="2D Cats Kit" data-page-id="project-2D-CatsKit">
+                        <img src="img/CatsImg/catLine.png" alt="2D Cats Kit">
+                        <div class="overlay">
+                            <span class="project-name">2D Cats Kit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="page-number active">1</button>
+                </div>
+            </section>
+
+            <section id="project-2D-CatsKit" class="page-section hidden">
+                <div class="project-header">
+                    <h2>2D Cats Kit</h2>
+                    <p class="project-description">
+                        A vibrant and modular sprite kit, purr-fect for bringing charming 
+                        feline characters to life in your 2D games! This package includes 
+                        a delightful array of cat sprites in various colours. 
+                    </p>
+                </div>
+                <div class="project-images">
+                    <img src="img/CatsImg/bicolour.png" alt="Cat details 1">
+                    <img src="img/CatsImg/grey.png" alt="Cat details 2">
+                    <img src="img/CatsImg/greyish.png" alt="Cat details 3">
+                    <img src="img/CatsImg/white.png" alt="Cat details 4">
+                    <img src="img/CatsImg/black.png" alt="Cat details 5">
+                </div>
+                <button id="back-to-portfolio" class="back-button">Back</button>
+            </section>
+        </div> </main>
+
+        <footer>
+        <p>&copy; <span id="current-year"></span> R.S STUDIOS. All Rights Reserved.</p>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
