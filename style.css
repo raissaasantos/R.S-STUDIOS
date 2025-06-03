@@ -228,8 +228,11 @@ main {
 
     .email-contact {
         position: static;
-        margin-left: 300px;
-        width: 40px;
+        margin-left: 290px;
+    }
+
+    #email-text {
+        margin: 5px;
     }
 
     .portfolio-grid {
