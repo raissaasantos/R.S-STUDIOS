@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.execCommand('copy');
             document.body.removeChild(tempInput);
 
-            emailTextSpan.textContent = "Copiado!";
+            emailTextSpan.textContent = "Copied!";
             emailButton.classList.add('copied');
 
             setTimeout(() => {
